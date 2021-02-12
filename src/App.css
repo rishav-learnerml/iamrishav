@@ -4,7 +4,7 @@
   --primary-white: #fff;
   --primary-orange: #f9ab00;
   --primary-red: #ef4035;
-  --primary-hover-red: #ef3351;
+  --primary-hover-red: #f33501;
   --primary-dark: rgba(255, 255, 255, 0);
 }
 
@@ -20,10 +20,16 @@ body {
   padding-bottom: 20px;
 }
 .navbar-brand {
-  min-width: 17.25rem;
+  min-width: 14.25rem;
   padding: 0 !important;
   height: 5rem !important;
   color: var(--primary-white) !important;
+}
+@media (max-width: 768px) {
+  .navbar-brand {
+    width: 7rem;
+    margin-top: 10px;
+  }
 }
 nav {
   z-index: 2;
@@ -102,14 +108,8 @@ nav ul li {
   .main-info h1 {
     font-size: 1.7rem !important;
   }
-  .typed-text{
+  .typed-text {
     font-size: 1.3rem !important;
-  }
-  .navbar-brand {
-    width: 7rem !important;
-  }
-  .navbar-logo {
-    width: 4rem;
   }
 }
 .tsparticles-canvas-el {
