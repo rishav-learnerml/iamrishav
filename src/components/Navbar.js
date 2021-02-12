@@ -9,7 +9,7 @@ function Navbar() {
       <div className="container">
         <a className="navbar-brand" href="#">
           <img className="navbar-logo" src={logo} alt="" />
-          <span>Rishav's Dev-Folio</span>
+         <span className="navbar-title">Rishav's Dev-Folio</span>
         </a>
         <button
           className="navbar-toggler"
