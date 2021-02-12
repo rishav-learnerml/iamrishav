@@ -8,7 +8,7 @@ function Header() {
           <h1>Hello World!&nbsp; I'm Rishav</h1><ReactTyped 
           className="typed-text"
           strings={
-              ["Web Developer","Compititive Programmer","Mobile App Developer","Machine Learning Enthusiast","Problem Solver","Aspiring SDE"]
+              ["A Web Developer","A Compititive Programmer","A Mobile App Developer","A Machine Learning Enthusiast","A Problem Solver","An Aspiring SDE"]
             
           }
           typeSpeed={40}
