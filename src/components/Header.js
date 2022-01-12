@@ -14,7 +14,7 @@ function Header() {
           typeSpeed={40}
           backSpeed={50}
           />
-          <a target="_blank" href="https://drive.google.com/file/d/1pmLBbovVgggX4U7WTCN0Vv5SHP6a_Go3/view?usp=sharing" className="btn-main-offer">my resume</a>
+          <a target="_blank" href="https://drive.google.com/file/d/12AjTkYkOIUo6wAxzB3L_dgMaH1a6NMlB/view?usp=sharing" className="btn-main-offer">my resume</a>
       </div>
     </div>
   );
